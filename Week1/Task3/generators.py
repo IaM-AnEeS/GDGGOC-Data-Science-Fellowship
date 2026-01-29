@@ -1,10 +1,6 @@
 #### Generators
 # Generators are a simpler way to create iterators. They use the yield keyword to produce a series of values lazily, which means they generate values on the fly and do not store them in memory.
 
-# Reading Large Files
-import os
-
-
 def square(n):
     for i in range(3):
         yield i**2

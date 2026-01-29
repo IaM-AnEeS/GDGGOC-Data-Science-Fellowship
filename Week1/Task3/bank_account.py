@@ -37,7 +37,6 @@ class CheckingAccount(bankAccount):
             self.balance-=amount
             print(f"Withdrew {amount}. New balance is {self.balance}")
 
-# Usage Example
 savings= SavingsAccount("AN123","Anees",100000)
 savings.deposit(5000)
 savings.withdraw(2000)
