@@ -52,7 +52,7 @@ Applying concepts in a real-world application:
 - Basics of deploying the application
 
 ## Structure
-
+``` bash
 Week1/
 ├── Task1/           # Basic Python programs
 │   ├── area_of_circle.py
@@ -94,6 +94,4 @@ Week1/
     │   └── app.py
     ├── requirements.txt
     └── README.md
-
-## Author
-[Anees Ahmad](https://github.com/IaM-AnEeS)
+```

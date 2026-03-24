@@ -128,7 +128,8 @@ Performing exploratory data analysis on the Titanic dataset
 - Introduction to object detection and segmentation
 
 ## Peoject Structure
-.
+
+```bash
 ├── Week1-python-and-git-foundation/
 │   ├── Task1/          # Python basics
 │   ├── Task2/          # Modular Python & data handling
@@ -156,7 +157,7 @@ Performing exploratory data analysis on the Titanic dataset
 │   ├── Neural_Networks_Task13.ipynb
 │   └── README.md
 └── README.md           # This file
-
+```
 ## Author
 
 [Anees Ahmad](https://github.com/IaM-AnEeS)
