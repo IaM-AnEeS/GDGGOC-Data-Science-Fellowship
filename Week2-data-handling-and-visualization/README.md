@@ -10,33 +10,31 @@ This week focuses on understanding datasets, performing data preprocessing, and 
 - Data visualization with Matplotlib and Seaborn
 - Data cleaning and preparation techniques
 - Creating effective visual representations of data
+## Task Description
+This project performs Exploratory Data Analysis (EDA) to uncover patterns and relationships that influenced survival on the Titanic.
 
-## Task 6 — Titanic Dataset EDA
+Steps performed:
+- Data loading and inspection
+- Data cleaning and preprocessing
+- Feature engineering
+- Data visualization
+- Insight extraction
 
-Perform Exploratory Data Analysis (EDA) on the Titanic dataset to uncover patterns, relationships, and insights related to passenger survival.
+## Titanic Dataset EDA
 
-## Submission Requirements
+The Titanic dataset contains information about passengers aboard the Titanic, including:
+- PassengerId
+- Survival (0 = No, 1 = Yes)
+- Passenger Class (Pclass)
+- Name
+- Sex
+- Age
+- SibSp (siblings/spouses aboard)
+- Parch (parents/children aboard)
+- Ticket
+- Fare
+- Cabin
 
-- Submit a Jupyter Notebook (.ipynb) (preferably using Google Colab)
-- Upload the notebook to your GitHub repository under Week 2
-- Include a README.md file describing:
-- Dataset overview
-  1. Tools and libraries used
-  2. Instructions to run the notebook
-  3. Summary of findings
-
-## Notebook Guidelines
-
-Your notebook should include:
-
-- Proper data loading and initial inspection
-- Data cleaning and preprocessing steps
-- Clear and meaningful visualizations
-- Well-structured code with markdown explanations
-
-## Dataset Overview
-
-This project explores the well-known Titanic dataset, which contains details about passengers such as age, gender, ticket class, fare, and survival status. The goal is to analyze these features to understand factors affecting survival. 
 
 ## Tools & Technologies
 
@@ -46,6 +44,24 @@ This project explores the well-known Titanic dataset, which contains details abo
 - NumPy — Numerical computations
 - Matplotlib — Basic data visualization
 - Seaborn — Advanced statistical visualization
+
+```bash
+
+Week2-data-handling-and-visualization/
+│── Titanic_Dataset.csv
+│── data_handling_visalization_task12.ipynb
+│── README.md
+│── requirements.txt
+```
+
+## Notebook Guidelines
+
+Your notebook should include:
+
+- Proper data loading and initial inspection
+- Data cleaning and preprocessing steps
+- Clear and meaningful visualizations
+- Well-structured code with markdown explanations
 
 ## How to Run
 
