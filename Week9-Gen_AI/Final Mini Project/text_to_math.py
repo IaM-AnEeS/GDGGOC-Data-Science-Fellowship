@@ -1,15 +1,12 @@
 import streamlit as st
 from langchain_groq import ChatGroq
-from langchain.chains.base import LLMChain
-from langchain.chains.llm_math.base import LLMMathChain
-from langchain_community.utilities import WikipediaAPIWrapper
-from langchain.agents import Tool, initialize_agent
+from langchain.chains import LLMMathChain
+from langchain.chains import LLMChain
 from langchain.prompts import PromptTemplate
 from langchain_community.utilities import WikipediaAPIWrapper
-from langchain.agents import Tool, initialize_agent
 from langchain.agents.agent_types import AgentType
+from langchain.agents import Tool, initialize_agent
 from langchain.callbacks import StreamlitCallbackHandler
-import math
 # ---------------- Streamlit App ----------------
 st.set_page_config(page_title="🦜 Text to Math Problem Solver and Data Search Assistant",page_icon="🧮")
 st.title("🧮 Text to Math Problem Solver using Google Gemma")
@@ -20,7 +17,7 @@ if not groq_api_key:
     st.info("Please add your Groq API key here")
     st.stop()
 
-llm=ChatGroq(model_name="Gemma2-9b-It",groq_api_key=groq_api_key)
+llm = ChatGroq(model_name="llama3-70b-8192", groq_api_key=groq_api_key)
 
 ## Initializing the tools
 wikipedia_wrapper = WikipediaAPIWrapper()

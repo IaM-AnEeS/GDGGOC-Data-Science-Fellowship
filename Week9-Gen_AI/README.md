@@ -4,7 +4,7 @@
 This directory contains the Week 9 Generative AI deliverables for a practical data science portfolio. It includes three Streamlit applications and a complementary notebook that explains core GenAI concepts, API workflows, tokenization, summarization, RAG, and a basic GAN example.
 
 ## Folder Structure
-- `Final Mini Project/` — interactive math problem solver powered by LangChain and Google Gemma.
+- `Final Mini Project/` — interactive math problem solver powered by LangChain and Groq Llama.
 - `Q&A_Chat_bot/` — question-answer chatbot using OpenAI and LangChain.
 - `RAG Document Q&A/` — retrieval augmented generation demo over PDF research papers.
 - `task_15.ipynb` — learning notebook with code examples and conceptual notes.

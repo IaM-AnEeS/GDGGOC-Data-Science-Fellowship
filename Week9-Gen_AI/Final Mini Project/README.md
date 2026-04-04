@@ -5,7 +5,7 @@ This folder contains a polished Streamlit application that transforms natural la
 
 ## Key Features
 - Interactive Streamlit user interface for chat-style math solving.
-- Natural language question parsing with `ChatGroq` and Google Gemma.
+- Natural language question parsing with `ChatGroq` and Groq Llama.
 - Mathematical reasoning through `LLMMathChain`.
 - Supplementary knowledge lookup using Wikipedia.
 - Agent-based tool selection to route questions to the best available capability.
